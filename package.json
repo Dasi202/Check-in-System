@@ -1,0 +1,28 @@
+{
+  "name": "meridian-pivot-simulation",
+  "version": "1.0.0",
+  "description": "Asynchronous event check-in system with queue and webhooks",
+  "main": "src/server/app.js",
+  "scripts": {
+    "start": "node src/server/app.js",
+    "dev": "nodemon src/server/app.js",
+    "test": "jest --runInBand",
+    "test:watch": "jest --watch",
+    "docker:up": "docker-compose up -d",
+    "docker:down": "docker-compose down"
+  },
+  "dependencies": {
+    "bullmq": "^3.15.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "helmet": "^7.0.0",
+    "ioredis": "^5.3.2",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.6.2",
+    "nodemon": "^3.0.1",
+    "supertest": "^6.3.3"
+  }
+}
