@@ -37,7 +37,7 @@ This solution addresses the challenge of migrating from a synchronous badge prin
 
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone <https://github.com/Dasi202/Check-in-System.git>
 cd Check-in-System
 
 # Install dependencies
